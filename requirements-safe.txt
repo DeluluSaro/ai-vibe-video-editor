@@ -1,0 +1,25 @@
+# Core Framework - Essential for running the app
+streamlit>=1.35.0
+python-dotenv>=1.0.0
+
+# AI and Machine Learning - Core functionality
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-groq>=0.3.0
+langchain-huggingface>=0.3.0
+groq>=0.10.0
+
+# Computer Vision - Essential for video metadata
+opencv-python>=4.8.0
+pillow>=10.0.0
+
+# Audio Processing - Latest stable version
+openai-whisper>=20240930
+
+# Data Processing - Essential for UI
+numpy>=1.24.0
+pandas>=2.0.0
+plotly>=5.15.0
+
+# Web utilities
+requests>=2.30.0

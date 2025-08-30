@@ -8,32 +8,23 @@ langchain-community==0.3.8
 langchain-groq==0.3.7
 langchain-huggingface==0.3.1
 groq==0.11.0
-huggingface-hub==0.26.3
-transformers==4.47.1
-
-# Deep Learning (Latest stable versions)
-torch==2.8.0
-torchaudio==2.8.0
 
 # Computer Vision and Video Processing
 opencv-python==4.10.0.84
-moviepy==2.1.1
 pillow==11.0.0
 
-# Audio Processing (Skip problematic av package)
-openai-whisper==20241113
-pydub==0.25.1
-ffmpeg-python==0.2.0
+# Audio Processing
+openai-whisper==20250625
 
 # Data Processing
 numpy==1.26.4
 pandas==2.2.3
 plotly==5.24.1
 
-# Web Components (Skip problematic streamlit-webrtc and av)
+# Web and utilities
 requests==2.32.8
-scipy==1.14.1
-scikit-learn==1.5.2
 
-# Utilities
-tqdm==4.67.1
+# Optional dependencies (install separately if needed)
+# moviepy==2.1.1  # Uncomment if you have FFmpeg installed
+# torch==2.8.0  # Large download, install separately if needed
+# torchaudio==2.8.0  # Large download, install separately if needed
