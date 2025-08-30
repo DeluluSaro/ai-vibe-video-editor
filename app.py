@@ -42,6 +42,8 @@ st.markdown("""
         margin: 1rem 0;
     }
 
+
+            
     .feature-card {
         background: white;
         padding: 1.5rem;
